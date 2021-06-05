@@ -1,0 +1,150 @@
+.head{
+  display:flex;
+  width:70%;
+  height:330px;
+  margin-left:auto;
+  margin-right:auto;
+  background:Gainsboro;  
+}
+img{
+  width: 510px; /* width of container */
+  height: 325px; /* height of container */
+  object-fit: cover;
+  object-position: 50% 10%; /* try 20px 10px */ 
+  
+  
+}
+.header{
+  width:700px;
+  top:140px;
+  left:-160px;
+  font-size:16px;
+  line-height:35px;
+  color:#222;
+  font-family: 'Abril Fatface', cursive; 
+}
+
+
+.blockquote{
+  display:flex;
+  background:#444;
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+  height:190px;
+  width:495px;
+  font-size:19px;
+  justify-content:center;
+  padding-left:15px;
+}
+.together{
+  margin-left:20px;
+  letter-spacing:1px;
+  
+}
+.quotemark{
+  margin-top:-20px;
+  margin-right:20px;
+  font-size:100px;
+}
+.formal{
+  border-bottom:5px solid;
+  margin-top:60px;
+  margin-bottom:60px;
+  padding-bottom:60px
+}
+
+.paratext{
+  font-family: 'Josefin Sans', sans-serif;
+  line-height:30px;
+  font-size:20px;
+  color:#222;
+  margin-top:35px;
+}
+.blockquote3{
+  display:flex;
+  background:#444;
+  color:white;
+  width:495px;
+  font-family: 'Abril Fatface', cursive;
+  height:320px;
+}
+.together3{
+  font-size:35px;
+  letter-spacing:2px;
+  padding-left:0px;
+  padding-top:10px;
+  line-height:80px
+}
+.subtitle{
+  font-family: 'Merriweather Sans', sans-serif;
+  letter-spacing:3px;
+  margin-bottom:40px
+}
+.subheading{
+  line-height:3px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height:40px
+  
+}
+ul{
+  padding-top:25px;
+  padding-bottom:50px   
+}
+.body{
+  display:flex;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  background:DarkSeaGreen;
+  
+}
+
+.doboz2{
+  width:400px;
+  margin-left:auto;   
+}
+.doboz1{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-bottom:200px
+}
+.menu{
+  display:flex;
+  height:50px;
+  width:70%;
+  background:#111;
+  margin-top:-16px;
+  justify-content:space-between;
+  position:fixed;
+  left:200px;
+  
+}
+button{
+  color:white;
+  background:#111;
+  border:none;
+  font-size:30px;
+  margin-right:150px;
+  font-family: 'Odibee Sans', cursive;
+}
+button:hover{
+  color: red;
+}
+.myname{
+  margin-top:80px;
+}
+.together2{
+  font-size:35px;
+  letter-spacing:2px;
+  line-height:50px;
+  margin-top:0;
+}
+.blockquote2{
+  display:flex;
+  background:#444;
+  color:white;
+  width:495px;
+  font-family: 'Abril Fatface', cursive;
+  height:180px;
+}
